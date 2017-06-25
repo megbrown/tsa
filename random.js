@@ -7,7 +7,6 @@ window.addEventListener("click", function(event) {
 	let randomNum = Math.floor(Math.random() * arrowImages.length)
 	arrowArea.innerHTML = `<img src=${arrowImages[randomNum]}>`;
 	setTimeout(function(){
-  arrowArea.innerHTML = "";
-}, 1000);
+  	arrowArea.innerHTML = "";
+	}, 1000);
 })
-
